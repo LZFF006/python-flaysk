@@ -17,11 +17,12 @@ pip install flask-wtf
 pip install requests
 pip install pytest
 pip install pytest-flask
-```- salva a lista de pacotes instalados
+```
+- salva a lista de pacotes instalados
 - no arquivo requirements.txt
 - Isso permite que as outras pessoas instael as mesms versões
 ```python
 pip freeze > requirements.txt
-'''
+```
 ## Criar o arquivo .gitignore
 - Diz ao git quais arquivos e pasta **não devem versionados**.
